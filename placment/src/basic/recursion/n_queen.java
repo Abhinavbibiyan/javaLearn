@@ -20,7 +20,7 @@ public class n_queen {
 		           }
 		       }
 		      
-		       //upper Left
+		       //upper left
 		       int r = row;
 		       for(int c=col; c>=0 && r>=0; c--, r--) {
 		           if(board[r][c] == 'Q') {
